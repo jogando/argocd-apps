@@ -19,3 +19,6 @@ configMapGenerator:
   files:
     - dashboards/custom1.json
     - dashboards/custom2.json
+
+generatorOptions:
+  disableNameSuffixHash: true
